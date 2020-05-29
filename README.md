@@ -2,7 +2,7 @@
 
 This was a project in compute music course about audio generation one-liner: 
 
-You probably know of pseudo-random number generators that create long sequences of seemingly random numbers. 
+> You probably know of pseudo-random number generators that create long sequences of seemingly random numbers. 
 A little thought should convince you that if the state of these algorithms is N bits, 
 then the generated sequence cannot be longer than 2N. Thus, repetition will occur even if it takes eons. 
 On the other hand, if the state is small, say N=20, then at audio rates of around 44,100 Hz, 
