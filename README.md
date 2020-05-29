@@ -16,9 +16,9 @@ The challenge then is to design “really bad” algorithms that sound as intere
 ## To play with it
 Download the unix executable one-liners and it should be ready to go. There are five lines and reverse is also possible. 
 
-line_0: (t * (((t>>12) | (t>>8)) & (63 & (t>>4))))
-line_1: (t * ((t>>12 | t>>3) & 13131 & t>>11))
-line_2: ((440 * 256/8000 * t) & (1 << 7))
-line_3: (((t^0xf3c35)%64) * ((t/1537)&17) * sin(t/0x2500) + cos(t/0x2500) * (((t/3)^1984)%32) * ((t/90)&13))
-line_4: (((t+1<<(t>>t-(t*01231)>>43))/5)/(4.240101)-(t*0.00024))
-line_5: sin(t >> 2 | t << 8) * 50 * ((t>>2) & 3)
+line_0: (t * (((t>>12) | (t>>8)) & (63 & (t>>4))))   
+line_1: (t * ((t>>12 | t>>3) & 13131 & t>>11))   
+line_2: ((440 * 256/8000 * t) & (1 << 7))   
+line_3: (((t^0xf3c35)%64) * ((t/1537)&17) * sin(t/0x2500) + cos(t/0x2500) * (((t/3)^1984)%32) * ((t/90)&13))   
+line_4: (((t+1<<(t>>t-(t*01231)>>43))/5)/(4.240101)-(t*0.00024))   
+line_5: sin(t >> 2 | t << 8) * 50 * ((t>>2) & 3)   
